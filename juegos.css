@@ -1,0 +1,137 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+        "main"
+        "footer";
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header, main, aside, footer {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+header {
+    grid-area: header;
+
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}
+
+td {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 40%;
+    height: 60%;
+}
+
+#censurado {
+    background-image: url(../imgDetalles/Censurado.jpg);
+     color: white;
+}
+
+#resurgimiento {
+    background-image: url(../imgDetalles/Resurgimiento.jpg);
+    color: white;
+}
+
+#detonante{
+    background-image: url(../imgDetalles/Detonante.jpg);
+    color: white;
+  
+}
+
+#punta_lanza{
+    background-image: url(../imgDetalles/punta_lanza.jpg);
+  
+
+    color: white;
+}
+
+#varado{
+    background-image: url(../imgDetalles/varado.jpg);
+   
+    color: white;
+}
+
+#exposicion{
+    background-image: url(../imgDetalles/varado.jpg);
+   
+    color: white;
+}
+
+#reloj{
+    background-image: url(../imgDetalles/reloj.jpg);
+ 
+    color: white;
+}
+
+#descarte{
+    background-image: url(../imgDetalles/descarte.jpg);
+
+    color: white;
+}
+
+#manifiesto{
+    background-image: url(../imgDetalles/manifiesto.jpg);
+  
+    color: white;
+}
+#caleidoscopio{
+    background-image: url(../imgDetalles/cale.jpg);
+
+    color: white;
+}
+
+#orbital{
+    background-image: url(../imgDetalles/orbital.jpg);
+   
+    color: white;
+}
+#ruptura{
+    background-image: url(../imgDetalles/ruptura.jpg);
+  
+    color: white;
+}
+#renovacion{  
+    background-image: url(../imgDetalles/renovacion.png);
+   
+    color: white;
+
+}
+#alamein{
+    background-image: url(../imgDetalles/alamein.jpg);
+   
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
